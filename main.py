@@ -16,7 +16,7 @@ def bop(bot, update):
 
 
 def main():
-    updater = Updater('1045258936:AAGFIHd-zK9RcJiuE85M49vyOiqfot525WM')
+    updater = Updater('TOKEN')
     dp = updater.dispatcher
     dp.add_handler(CommandHandler('bop', bop))
     updater.start_polling()
